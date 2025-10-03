@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BLwjU4CUU2w=",
+  "dgSpecHash": "90xa9vJ4BBQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Olek7\\Desktop\\FileConverter\\FileConverter.csproj",
+  "projectFilePath": "c:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\FileConverter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Olek7\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Olek7\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
