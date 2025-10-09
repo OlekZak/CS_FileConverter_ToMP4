@@ -69,6 +69,11 @@ Notes:
 
 ## Version History
 
+* 1.2
+    * Packaging of the app
+    * windows 32 and 64 bit release
+    * linux 64 bit release
+
 * 1.1
     * Added Drag and Drop
     * Allow for user input directories, as well as multiple directories
