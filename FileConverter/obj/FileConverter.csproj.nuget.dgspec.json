@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\FileConverter.csproj": {}
+    "C:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\FileConverter.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\FileConverter.csproj": {
+    "C:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\FileConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\FileConverter.csproj",
+        "projectUniqueName": "C:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\FileConverter.csproj",
         "projectName": "FileConverter",
-        "projectPath": "c:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\FileConverter.csproj",
+        "projectPath": "C:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\FileConverter.csproj",
         "packagesPath": "C:\\Users\\Olek7\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\obj\\",
+        "outputPath": "C:\\Users\\Olek7\\Documents\\GitHub\\CS_FileConverter_ToMP4\\FileConverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
