@@ -1,0 +1,7 @@
+c:\Users\Olek7\Documents\GitHub\CS_FileConverter_ToMP4\FileConverter\publish\win-x64\FileConverter.exe
+c:\Users\Olek7\Documents\GitHub\CS_FileConverter_ToMP4\FileConverter\publish\win-x64\FileConverter.dll
+c:\Users\Olek7\Documents\GitHub\CS_FileConverter_ToMP4\FileConverter\publish\win-x64\FileConverter.deps.json
+c:\Users\Olek7\Documents\GitHub\CS_FileConverter_ToMP4\FileConverter\publish\win-x64\FileConverter.runtimeconfig.json
+c:\Users\Olek7\Documents\GitHub\CS_FileConverter_ToMP4\FileConverter\publish\win-x64\FileConverter.pdb
+c:\Users\Olek7\Documents\GitHub\CS_FileConverter_ToMP4\FileConverter\publish\win-x64\Newtonsoft.Json.dll
+c:\Users\Olek7\Documents\GitHub\CS_FileConverter_ToMP4\FileConverter\publish\win-x64\Xabe.FFmpeg.dll

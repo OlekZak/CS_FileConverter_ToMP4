@@ -43,6 +43,30 @@ After this, simply let the magic happen. The program will let give you a status 
 
 This project uses the FFmpeg executable for video conversion. You must have FFmpeg installed and available on your system. Download it from [ffmpeg.org](https://ffmpeg.org/download.html) and ensure it is added to your system PATH.
 
+## Self-contained builds (pre-built)
+
+I created self-contained Release builds for convenience. You can find the packaged ZIPs in the `publish` folder of the project repository:
+
+- `publish/FileConverter-win-x86-selfcontained.zip` — Windows 32-bit
+- `publish/FileConverter-win-x64-selfcontained.zip` — Windows 64-bit
+- `publish/FileConverter-linux-x64-selfcontained.zip` — Linux 64-bit
+
+Each ZIP contains a fully self-contained application (includes the .NET runtime). To run:
+
+Windows:
+- Extract the ZIP and run `FileConverter.exe` (double-click or run from PowerShell/CMD).
+
+Linux:
+- Extract the ZIP, make the binary executable if necessary, then run:
+
+```bash
+chmod +x FileConverter
+./FileConverter
+```
+
+Notes:
+- These builds are self-contained for .NET, but the application still requires FFmpeg for video conversions. The code currently sets FFmpeg path to `C:\ffmpeg\bin` via `FFmpeg.SetExecutablesPath(...)`. Either install FFmpeg and add it to your PATH, or edit `Program.cs` to point to your FFmpeg location, or remove that line to rely on FFmpeg being in PATH.
+
 ## Version History
 
 * 1.1
@@ -55,3 +79,27 @@ This project uses the FFmpeg executable for video conversion. You must have FFmp
     * Initial Project Release
     * Input and Ouput directories hard coded to ```C:\\ToMP4```
     * Known issue - MP4 files are somtimes not skipped, tanking performace
+
+### Checksums (SHA256)
+
+Use these SHA256 hashes to verify downloads:
+
+- FileConverter-win-x86-selfcontained.zip: `4FB1BD96AF28CDBC340EE4A816E03B29B64D72E4F474B280D8EB2DBFAFE7AAC8`
+- FileConverter-win-x64-selfcontained.zip: `CF8EEF50B1215FB49CE1970F0111B15BE9D3DE306CBAD4B33CC6AE1DC07A88DB`
+- FileConverter-linux-x64-selfcontained.zip: `C182B52E921D130955A44625B20301C1600F5BFF60AF07FC1E7899E9C3C4F798`
+
+### Verify downloads
+
+PowerShell (Windows):
+
+```powershell
+Get-FileHash -Algorithm SHA256 path\to\FileConverter-win-x64-selfcontained.zip
+# Compare the Hash value to the value in the README
+```
+
+Linux/macOS:
+
+```bash
+sha256sum FileConverter-linux-x64-selfcontained.zip
+# Compare the printed checksum to the value in the README
+```
